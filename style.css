@@ -1,0 +1,12 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    top:0;
+    left:0;
+    background-color: red;
+    width:100%;
+    display:block;
+}
