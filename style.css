@@ -8,4 +8,12 @@ body {
     left:0;
     width:100%;
     display:block;
+    background-color: red;
+}
+
+#f {
+    color:lightgreen;
+    font-size:1000%;
+    text-align: center;
+    display: block;
 }
