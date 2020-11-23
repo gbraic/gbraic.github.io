@@ -12,5 +12,5 @@ int main(int argc, char* argv[]){
 		cout << "Usage: update <commitnamewithoutspaces>" << endl;
 		return 0;
 	}
-	system((string("git add --all && git commit -m \"")+string(argv[1],strlen(argv[1]))+string("\" && git push -u origin master")).c_str());
+	system((string("git add --all; git commit -m \"")+string(argv[1],strlen(argv[1]))+string("\"; git push -u origin master")).c_str());
 }
